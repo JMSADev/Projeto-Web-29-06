@@ -12,7 +12,7 @@
     </div>
 
     <div id="div-form">
-        <h3>FOrmulário HTML</h3>
+        <h3>Formulário HTML</h3>
 
         <form name="form-pessoa" id="form-pessoa" method="post">
 
@@ -37,7 +37,7 @@
             <label for="sexo">Sexo</label>
             <input type="radio" name="sexo" id="sxF" class="input-radio" value="F" required value="F"> Feminino
             <input type="radio" name="sexo" id="sxM" class="input-radio" value="M" required value="M"> Masculino
-            <input type="radio" name="sexo" id="sxO" class="input-radio" value="O" required value="O"> Outro
+            <input type="radio" name="sexo" id="sxO" class="input-radio" value="O" required value="O" checked> Outro
 
             <br><br>
 
@@ -51,14 +51,44 @@
                 <option value="CE">Ceará</option>
                 <option value="PI">Piaui</option>
                 <option value="MA">Maranhão</option>
-                <option value="SE">Sergipe</option>
+                <option value="SE" selected>Sergipe</option>
             </select>
+
+            <br><br>
 
             <label for="preferencias">Preferências</label>
             <input type="checkbox" name="estudo" class="input= check" id="estudo" value="estudo">Estudo
-            <input type="checkbox" name="viagem" class="input= check" id="viagem" value="viagem">Viagem
+            <input type="checkbox" name="viagem" class="input= check" id="viagem" value="viagem" checked>Viagem
             <input type="checkbox" name="trabalho" class="input= check" id="trabalho" value="trabalho">Trabalho
             <input type="checkbox" name="compras" class="input= check" id="compras" value="compras">Compras
+
+            <br><br>
+
+            <label for="comentario">Comentário</label>
+            <textarea name="comentario" id="comentario"></textarea>
+
+            <br><br>
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" class="input-txt02" required placeholder="Informe uma senha" maxlength="6">
+            
+            <br><br>
+
+            <label for="datanascimento">Data de Nascimento</label>
+            <input type="date" name="datanascimento" id="datanascimento" class="input-txt02" required>
+
+            <br><br>
+
+            <label for="quantidade">Quantidade</label>
+            <input type="range" name="quantidade" id="quantidade" class="input-txt02" min="0" max="10" step="2">
+
+            <br><br>
+
+            <button type="submit" id="btn-enviar" class="btn">Enviar</button>
+            <button type="reset" id="btn-limpar" class="btn">Limpar</button>
+            <button id="btn" class="btn">Botão</button>
+
+ 
         </form> 
 
         </form>
