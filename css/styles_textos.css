@@ -1,0 +1,22 @@
+p{
+    font-family: "helvetica";
+    font-size: 1.em;
+    text-align: justify;
+    line-height: 20px;
+}
+
+#paragrafo01{
+    margin-left: 200px;
+}
+
+#paragrafo02{
+    margin-right: 200px;
+}
+
+.paragrafos{
+    color: red;
+}
+
+.especial{
+    background-color: azure;
+}
