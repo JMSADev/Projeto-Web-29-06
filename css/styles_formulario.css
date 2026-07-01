@@ -1,0 +1,59 @@
+label{
+    display: block;
+    margin: 20px 0px;
+}
+
+.input-txt01, .input-txt02{
+    height: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px
+}
+
+select{
+    height: 0px;
+}
+
+.input-txt01,textarea{
+    width: 400px;
+}
+
+.input-txt02, selecct{
+    width: 260px;
+    height: 50px;
+}
+
+textarea{
+    height: 250px;
+    resize: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: red;
+    font-size: 1.;
+}
+
+input[type="radio"], input[type="chekbox"]{
+    width: 30px;
+    height: 15px;
+    cursor: pointer;
+}
+
+#div-form{
+    width: 500px;
+    min-height: 600px;
+    margin: 20px auto;
+    background-color: rgba(151, 151, 141, 0.89);
+    padding: 20px;
+    font-size: 1.4;
+}
+#div-btns{
+    background-color: red;
+}
+button{
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+}
